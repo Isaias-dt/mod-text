@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mod-text</title>
+  <style>
+    form {
+      margin: 0 auto 0 auto;
+      width: 50%;
+    }
+
+    form textarea {
+      width: 100%;
+    }
+
+    form div {
+      border: 1px solid #cecece;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form action=".">
+      <label for="camp1">Cole o texto aqui:</label>
+      </br>
+      <textarea data-js="txtInput" id="camp1" rows="5" maxlength="1000"></textarea>
+      </br>
+      <button data-js="btnPaste">Colar</button>
+      <button data-js="btnConvert">Converte</button>
+      <hr>
+      <div data-js="txtOutput"></div>
+      <button data-js="btnCopy">Copiar</button>
+    </form>
+  </div>
+  <script src="js.js"></script>
+</body>
+
+</html>
