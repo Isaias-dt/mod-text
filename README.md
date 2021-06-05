@@ -1,2 +1,3 @@
 # mod-text
-_Description of project:_ 
+**Description of project:** manipulating text.
+**Link for page:** [text](https://isaias-dt.github.io/mod-text/)
