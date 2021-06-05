@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
   form {
     margin: 0 auto 0 auto;
-    width: 70%;
+    width: 100%;
   }
 
   form textarea {
