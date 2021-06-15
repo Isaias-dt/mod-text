@@ -1,18 +1,41 @@
 @charset "utf-8";
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1270px) {
+
+  body {
+    font-size: 25pt;
+  }
+
   form {
-    margin: 0 auto 0 auto;
-    width: 100%;
+    width: 90%;
   }
 
   form textarea {
-    width: 100%;
+    width: 99.5%;
+    height: 200px;
+    margin-bottom: 5px;
+    font-size: 20pt;
+
   }
 
   form div {
     border: 1px solid #cecece;
     margin-bottom: 10px;
     padding: 10px;
+    font-size: 20pt;
+  }
+
+  form button {
+    padding: 20px;
+    font-size: 20pt;
+  } 
+
+  header {
+    height: 50px;
+    background-color: #808080;
+  }
+
+  header span {
+    font-size: 12pt;
   }
 }

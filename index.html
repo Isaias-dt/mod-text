@@ -2,8 +2,8 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
   <title>Mod-text</title>
   <link rel="stylesheet" href="css/style.css"/>
   <link rel="stylesheet" href="css/mobile.css"/>
@@ -11,17 +11,26 @@
 
 <body>
   <div class="container">
+    <header>
+      <div>
+        <span>By Isaias D A</span>
+      </div>
+    </header>
     <form action=".">
-      <label for="camp1">Cole o texto aqui:</label>
-      </br>
-      <textarea data-js="txtInput" id="camp1" rows="5" maxlength="1000"></textarea>
-      </br>
-      <button data-js="btnPaste">Colar</button>
-      <button data-js="btnConvert">Converte</button>
-      <button data-js="btnLimpar">Limpar</button>
+      <fieldset>
+        <label for="camp1">Cole o texto aqui:</label>
+        </br>
+        <textarea data-js="txtInput" id="camp1" maxlength="1000"></textarea>
+        </br>
+        <button data-js="btnPaste">Colar</button>
+        <button data-js="btnConvert">Converte</button>
+        <button data-js="btnLimpar">Limpar</button>
+      </fieldset>
       <hr>
-      <div data-js="txtOutput"></div>
-      <button data-js="btnCopy">Copiar</button>
+      <fieldset>
+        <div data-js="txtOutput" id="textOut"><pre></pre></div>
+        <button data-js="btnCopy">Copiar</button>
+      </fieldset>
     </form>
   </div>
   <script src="js/js.js"></script>
