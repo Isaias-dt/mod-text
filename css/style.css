@@ -15,13 +15,10 @@ form textarea {
   width: 99.5%;
   height: 70px;
   margin-bottom: 5px;
-}
-
-form div {
-  border: 1px solid #cecece;
-  border-radius: 10px;
-  margin-bottom: 10px;
   padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
@@ -31,7 +28,7 @@ header {
   box-shadow: 1px 2px 1px #fff;
 }
 
-header span {
+header div#madeBy span {
   position: absolute;
   right: 0px;
   top: 0px;
@@ -45,12 +42,22 @@ header span {
 
 #textOut {
   background-color: #fff;
+  border: 1px solid #cecece;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#textOut pre {
+  white-space: pre-wrap;
+  margin: 0px;
 }
 
 fieldset {
   padding: 5px;
   border: none;
   margin: 0px;
+  
 }
 
 form button {

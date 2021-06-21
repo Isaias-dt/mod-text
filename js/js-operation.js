@@ -6,9 +6,9 @@
   var btnConvert = doc.querySelector('[data-js=btnConvert]');
   var txtOutput = doc.querySelector('[data-js=txtOutput] pre');
   var btnCopy = doc.querySelector('[data-js=btnCopy]');
-  var btnLimpar = doc.querySelector('[data-js=btnLimpar]');
+  var btnClean = doc.querySelector('[data-js=btnClean]');
 
-  btnLimpar.addEventListener('click', toClearCamp, false);
+  btnClean.addEventListener('click', toClearCamp, false);
   btnConvert.addEventListener('click', txtUpperCase, false);
   btnPaste.addEventListener('click', toPasteText, false);
   btnCopy.addEventListener('click', toCopyText, false);
